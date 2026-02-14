@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\Languages;
+namespace JordJD\Languages;
 
 class Language
 {

@@ -17,7 +17,7 @@ language name or ISO code. You can also find all languages that belong
 to a particular family.
 
 ```php
-use \DivineOmega\Languages\Language;
+use \JordJD\Languages\Language;
 
 $language = Language::getByName('German');
 $language = Language::getByNativeName('Deutsch');

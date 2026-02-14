@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "DivineOmega\\Languages\\": "./src/"
+      "JordJD\\Languages\\": "./src/"
     }
   },
   "require": {},
@@ -20,7 +20,8 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0-dev"
+      "dev-master": "3.0-dev"
     }
-  }
+  },
+  "require-dev": {}
 }
