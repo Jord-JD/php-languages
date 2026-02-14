@@ -7,7 +7,7 @@ PHP Languages is a tiny package to help convert between languages names (such as
 To install PHP Languages, just run the following Composer command.
 
 ```bash
-composer require divineomega/php-languages
+composer require jord-jd/php-languages
 ```
 
 ## Usage

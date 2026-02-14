@@ -1,18 +1,26 @@
 {
-    "name": "divineomega/php-languages",
-    "description": "A tiny package to help convert between languages names (such as English, French, German) and various ISO language codes (such as en, fr, de).",
-    "type": "library",
-    "license": "LGPL-3.0-only",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@hall05.co.uk"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\Languages\\": "./src/"
-        }
-    },
-    "require": {}
+  "name": "jord-jd/php-languages",
+  "description": "A tiny package to help convert between languages names (such as English, French, German) and various ISO language codes (such as en, fr, de).",
+  "type": "library",
+  "license": "LGPL-3.0-only",
+  "authors": [
+    {
+      "name": "Jordan Hall",
+      "email": "jordan@hall05.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DivineOmega\\Languages\\": "./src/"
+    }
+  },
+  "require": {},
+  "replace": {
+    "divineomega/php-languages": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  }
 }
